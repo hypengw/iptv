@@ -392,7 +392,7 @@ local http_addr = nil
 local output = 'iptv.m3u'
 for i, a in ipairs(arg) do
     if a == '-h' or a == '--help' then
-        print('Usage: lua script.lua [options]')
+        print('Usage: lua ' .. arg[0] .. ' [options]')
         print('Options:')
         print('  -h, --help      Show this help message')
         print('  --network       Set the network device')
