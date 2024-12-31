@@ -1,7 +1,7 @@
 # IPTV M3U
 
 ## Limit
-- Sichuan ChengDu IPTV only
+- Sichuan Chengdu IPTV only
 - DHCP network config
   - vender class -> SCITV
   - hostname -> stbid
@@ -43,4 +43,9 @@ ctc_conf.json
     "useragent": ""
 }
 ```
+
+## Multicast to Unicast
+- [udpxy](https://github.com/pcherenkov/udpxy)
+- [rtp2httpd+fcc](https://github.com/stackia/rtp2httpd)
+- [msd_lite](https://github.com/rozhuk-im/msd_lite)
 
