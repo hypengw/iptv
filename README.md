@@ -1,8 +1,8 @@
-# iptv m3u
+# IPTV M3U
 
 ## Limit
-- Sichuan Chengdu IPTV only
-- Dhcp network config
+- Sichuan ChengDu IPTV only
+- DHCP network config
   - vender class -> SCITV
   - hostname -> stbid
   - dns advertised by peer
