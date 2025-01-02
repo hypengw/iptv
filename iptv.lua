@@ -31,13 +31,44 @@ local headers = {
     ['Accept-Charset'] = 'utf-8, *;q=0.7',
     ['User-Agent'] = ''
 }
+local logo_location = ''
+local exinfs = {}
 
-local cookie_table = {}
+---@class Exinf
+---@field tvg_id string
+---@field tvg_name string
+---@field tvg_logo string
+---@field group_title string
+---@field channel_name Array
+local Exinf = {}
 
-local function bool2Number(value)
-    return value and 1 or 0
+---@return Exinf
+function Exinf.new()
+    local s = {}
+    s.tvg_id = ''
+    s.tvg_name = ''
+    s.tvg_logo = ''
+    s.group_title = ''
+    s.channel_name = {}
+    setmetatable(s, {
+        __index = Exinf
+    })
+    return s
 end
 
+---@return Exinf
+function Exinf.fromJson(j)
+    local s = {}
+    s.tvg_id = j.tvg_id
+    s.tvg_name = j.tvg_name
+    s.tvg_logo = j.tvg_logo
+    s.group_title = j.group_title
+    s.channel_name = j.channel_name
+    setmetatable(s, {
+        __index = Exinf
+    })
+    return s
+end
 
 local function getLocalIpAddress(device)
     local handle = io.popen('ip addr show ' .. device)
@@ -122,13 +153,23 @@ end
 
 
 local function loadCtcConf(path)
-    local file = io.open(path, 'r')
+    local file = assert(io.open(path, 'r'))
     local json_string = file:read('*a')
     file:close()
     for key, value in pairs(cjson.decode(json_string)) do
         ctc_conf[key] = value
     end
     headers['User-Agent'] = ctc_conf.useragent
+end
+
+local function loadExinf(path)
+    local file = assert(io.open(path, 'r'))
+    local json_string = file:read('*a')
+    file:close()
+    for _, value in pairs(cjson.decode(json_string)) do
+        local e = Exinf.fromJson(value)
+        table.insert(exinfs, e)
+    end
 end
 
 local function getAuthAction(val)
@@ -370,10 +411,28 @@ end
 --ChannelPurchased        1
 
 local function generateM3u(channels, http_addr)
+    ---@return string
+    local function getExinf(name)
+        for _, e in pairs(exinfs) do
+            for _, channel_name in pairs(e.channel_name) do
+                if name == channel_name or name == e.tvg_name then
+                    local line =
+                        ' tvg-id="' ..
+                        e.tvg_id ..
+                        '" tvg-name="' ..
+                        e.tvg_name ..
+                        '" tvg-logo="' .. logo_location .. '/' .. e.tvg_logo .. '" group_title="' .. e.group_title .. '"'
+                    return line
+                end
+            end
+        end
+        return ''
+    end
+
     local out = '#EXTM3U\n'
     for _, v in pairs(channels) do
         local ip, port = v.ChannelURL:match("igmp://([%d%.]+):(%d+)")
-        out = out .. '#EXTINF:-1 tvg-name="' .. v.ChannelName .. '"\n'
+        out = out .. '#EXTINF:-1' .. getExinf(v.ChannelName) .. ',' .. v.ChannelName .. '\n'
         if http_addr then
             local line = 'http://' .. http_addr .. '/rtp/' .. ip .. ':' .. port
             if v.ChannelFCCIP ~= '' then
@@ -388,6 +447,7 @@ local function generateM3u(channels, http_addr)
 end
 
 local config_path = 'ctc_conf.json'
+local exinf_path = nil
 local http_addr = nil
 local output = 'iptv.m3u'
 for i, a in ipairs(arg) do
@@ -399,6 +459,8 @@ for i, a in ipairs(arg) do
         print('  --config        Set the configuration path')
         print('  --output        Set the m3u output path')
         print('  --http          Set http [ip:port] for rtp/udp to http')
+        print('  --exinf         Set exinf json info path')
+        print('  --logo          Set logo location')
         os.exit()
     elseif a == '--network' then
         ctc_conf.netdevice = arg[i + 1]
@@ -408,12 +470,24 @@ for i, a in ipairs(arg) do
         output = arg[i + 1]
     elseif a == '--http' then
         http_addr = arg[i + 1]
+    elseif a == '--exinf' then
+        exinf_path = arg[i + 1]
+    elseif a == '--logo' then
+        logo_location = arg[i + 1]
+        logo_location = string.gsub(logo_location, "/$", "")
     end
+end
+
+if not ctc_conf.netdevice then
+    error("network is empty")
 end
 
 math.randomseed(os.time())
 
 loadCtcConf(config_path)
+if exinf_path then
+    loadExinf(exinf_path)
+end
 
 local s = session.new()
 local ui_cloud_client = UICloudAuthClient.new(ctc_conf.userid, s)

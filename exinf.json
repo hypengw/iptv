@@ -1,0 +1,698 @@
+[
+ {
+  "tvg_id": "1",
+  "tvg_name": "CCTV1",
+  "tvg_logo": "CCTV1.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-1高清",
+   "CCTV-1杜比高清",
+   "CCTV-1"
+  ]
+ },
+ {
+  "tvg_id": "2",
+  "tvg_name": "CCTV2",
+  "tvg_logo": "CCTV2.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-2高清",
+   "CCTV-2"
+  ]
+ },
+ {
+  "tvg_id": "3",
+  "tvg_name": "CCTV3",
+  "tvg_logo": "CCTV3.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-3高清",
+   "CCTV-3"
+  ]
+ },
+ {
+  "tvg_id": "4",
+  "tvg_name": "CCTV4",
+  "tvg_logo": "CCTV4.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-4高清",
+   "CCTV-4"
+  ]
+ },
+ {
+  "tvg_id": "5",
+  "tvg_name": "CCTV5",
+  "tvg_logo": "CCTV5.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-5高清",
+   "CCTV-5"
+  ]
+ },
+ {
+  "tvg_id": "6",
+  "tvg_name": "CCTV5+",
+  "tvg_logo": "CCTV5+.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-5＋高清"
+  ]
+ },
+ {
+  "tvg_id": "7",
+  "tvg_name": "CCTV6",
+  "tvg_logo": "CCTV6.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-6高清",
+   "CCTV-6"
+  ]
+ },
+ {
+  "tvg_id": "8",
+  "tvg_name": "CCTV7",
+  "tvg_logo": "CCTV7.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-7高清",
+   "CCTV-7"
+  ]
+ },
+ {
+  "tvg_id": "9",
+  "tvg_name": "CCTV8",
+  "tvg_logo": "CCTV8.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-8高清",
+   "CCTV-8"
+  ]
+ },
+ {
+  "tvg_id": "10",
+  "tvg_name": "CCTV9",
+  "tvg_logo": "CCTV9.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-9高清",
+   "CCTV-9"
+  ]
+ },
+ {
+  "tvg_id": "11",
+  "tvg_name": "CCTV10",
+  "tvg_logo": "CCTV10.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-10高清",
+   "CCTV-10"
+  ]
+ },
+ {
+  "tvg_id": "12",
+  "tvg_name": "CCTV11",
+  "tvg_logo": "CCTV11.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-11高清",
+   "CCTV-11"
+  ]
+ },
+ {
+  "tvg_id": "13",
+  "tvg_name": "CCTV12",
+  "tvg_logo": "CCTV12.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-12高清",
+   "CCTV-12"
+  ]
+ },
+ {
+  "tvg_id": "15",
+  "tvg_name": "CCTV14",
+  "tvg_logo": "CCTV14.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-少儿高清",
+   "CCTV-少儿"
+  ]
+ },
+ {
+  "tvg_id": "16",
+  "tvg_name": "CCTV15",
+  "tvg_logo": "CCTV15.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-15高清",
+   "CCTV-音乐"
+  ]
+ },
+ {
+  "tvg_id": "17",
+  "tvg_name": "CCTV17",
+  "tvg_logo": "CCTV17.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-17高清",
+   "CCTV-17"
+  ]
+ },
+ {
+  "tvg_id": "6",
+  "tvg_name": "CCTV5+",
+  "tvg_logo": "CCTV5+.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-5+高清"
+  ]
+ },
+ {
+  "tvg_id": "56",
+  "tvg_name": "四川卫视",
+  "tvg_logo": "sichuan.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "四川卫视高清",
+   "四川卫视"
+  ]
+ },
+ {
+  "tvg_id": "2054",
+  "tvg_name": "SCTV2",
+  "tvg_logo": "sctv2.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "SCTV-2高清",
+   "SCTV-2"
+  ]
+ },
+ {
+  "tvg_id": "2055",
+  "tvg_name": "SCTV3",
+  "tvg_logo": "sctv3.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "SCTV-3高清",
+   "SCTV-3"
+  ]
+ },
+ {
+  "tvg_id": "2056",
+  "tvg_name": "SCTV4",
+  "tvg_logo": "sctv4.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "SCTV-4高清",
+   "SCTV-4"
+  ]
+ },
+ {
+  "tvg_id": "2057",
+  "tvg_name": "SCTV5",
+  "tvg_logo": "sctv5.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "SCTV-5高清",
+   "SCTV-5"
+  ]
+ },
+ {
+  "tvg_id": "2058",
+  "tvg_name": "SCTV7",
+  "tvg_logo": "sctv7.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "SCTV-7高清",
+   "SCTV-7"
+  ]
+ },
+ {
+  "tvg_id": "2062",
+  "tvg_name": "SCTV8",
+  "tvg_logo": "sctv8.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "SCTV-科教"
+  ]
+ },
+ {
+  "tvg_id": "2060",
+  "tvg_name": "峨眉电影",
+  "tvg_logo": "sctv8.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "峨眉电影高清",
+   "峨眉电影"
+  ]
+ },
+ {
+  "tvg_id": "2061",
+  "tvg_name": "SCTV9",
+  "tvg_logo": "sctv9.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "公共·乡村高清",
+   "公共·乡村"
+  ]
+ },
+ {
+ "tvg_id": "70",
+ "tvg_name": "康巴卫视",
+ "tvg_logo": "kangba.png",
+ "group_title": "卫视",
+ "channel_name": [
+  "康巴卫视高清",
+  "康巴卫视"
+ ]
+},
+ {
+  "tvg_id": "27",
+  "tvg_name": "湖南卫视",
+  "tvg_logo": "hunan.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "湖南卫视高清",
+   "湖南卫视"
+  ]
+ },
+ {
+  "tvg_id": "29",
+  "tvg_name": "江苏卫视",
+  "tvg_logo": "jiangsu.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "江苏卫视高清",
+   "江苏卫视"
+  ]
+ },
+ {
+  "tvg_id": "44",
+  "tvg_name": "贵州卫视",
+  "tvg_logo": "guizhou.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "贵州卫视高清",
+   "贵州卫视"
+  ]
+ },
+ {
+  "tvg_id": "45",
+  "tvg_name": "河北卫视",
+  "tvg_logo": "hebei.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "河北卫视高清",
+   "河北卫视"
+  ]
+ },
+ {
+  "tvg_id": "28",
+  "tvg_name": "浙江卫视",
+  "tvg_logo": "zhejiang.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "浙江卫视高清",
+   "浙江卫视"
+  ]
+ },
+ {
+  "tvg_id": "31",
+  "tvg_name": "东方卫视",
+  "tvg_logo": "dongfang.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "东方卫视高清",
+   "东方卫视"
+  ]
+ },
+ {
+  "tvg_id": "37",
+  "tvg_name": "旅游卫视",
+  "tvg_logo": "lvyou.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "海南卫视高清",
+   "海南卫视"
+  ]
+ },
+ {
+  "tvg_id": "30",
+  "tvg_name": "北京卫视",
+  "tvg_logo": "beijing.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "北京卫视高清",
+   "北京卫视"
+  ]
+ },
+ {
+  "tvg_id": "34",
+  "tvg_name": "深圳卫视",
+  "tvg_logo": "shenzhen.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "深圳卫视高清",
+   "深圳卫视"
+  ]
+ },
+ {
+  "tvg_id": "39",
+  "tvg_name": "天津卫视",
+  "tvg_logo": "tianjin.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "天津卫视高清",
+   "天津卫视"
+  ]
+ },
+ {
+  "tvg_id": "48",
+  "tvg_name": "湖北卫视",
+  "tvg_logo": "hubei.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "湖北卫视高清",
+   "湖北卫视"
+  ]
+ },
+ {
+  "tvg_id": "33",
+  "tvg_name": "广东卫视",
+  "tvg_logo": "guangdong.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "广东卫视高清",
+   "广东卫视"
+  ]
+ },
+ {
+  "tvg_id": "38",
+  "tvg_name": "山东卫视",
+  "tvg_logo": "shandong.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "山东卫视高清",
+   "山东卫视"
+  ]
+ },
+ {
+  "tvg_id": "46",
+  "tvg_name": "黑龙江卫视",
+  "tvg_logo": "heilongjiang.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "黑龙江卫视高清",
+   "黑龙江卫视"
+  ]
+ },
+ {
+  "tvg_id": "40",
+  "tvg_name": "重庆卫视",
+  "tvg_logo": "chongqing.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "重庆卫视高清",
+   "重庆卫视"
+  ]
+ },
+ {
+  "tvg_id": "41",
+  "tvg_name": "东南卫视",
+  "tvg_logo": "dongnan.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "东南卫视高清",
+   "东南卫视"
+  ]
+ },
+ {
+  "tvg_id": "50",
+  "tvg_name": "江西卫视",
+  "tvg_logo": "jiangxi.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "江西卫视高清",
+   "江西卫视"
+  ]
+ },
+ {
+  "tvg_id": "2025",
+  "tvg_name": "金鹰纪实",
+  "tvg_logo": "jinyingjishi.png",
+  "group_title": "地方",
+  "channel_name": [
+   "金鹰纪实高清",
+   "金鹰纪实"
+  ]
+ },
+ {
+  "tvg_id": "1988",
+  "tvg_name": "上海纪实",
+  "tvg_logo": "shanghaijishi.png",
+  "group_title": "地方",
+  "channel_name": [
+   "上海纪实高清",
+   "上海纪实"
+  ]
+ },
+ {
+  "tvg_id": "1872",
+  "tvg_name": "北京纪实",
+  "tvg_logo": "beijingjishi.png",
+  "group_title": "北京",
+  "channel_name": [
+   "冬奥纪实",
+   "北京冬奥纪实"
+  ]
+ },
+ {
+  "tvg_id": "6027",
+  "tvg_name": "大爱一台",
+  "tvg_logo": "daai.png",
+  "group_title": "港澳台",
+  "channel_name": [
+   "大爱四川高清",
+   "大爱旅游",
+   "大爱生活",
+   "大爱时尚"
+  ]
+ },
+ {
+  "tvg_id": "14",
+  "tvg_name": "CCTV13",
+  "tvg_logo": "CCTV13.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CCTV-新闻"
+  ]
+ },
+ {
+  "tvg_id": "20",
+  "tvg_name": "CGTN",
+  "tvg_logo": "cgtn.png",
+  "group_title": "央视",
+  "channel_name": [
+   "CGTN"
+  ]
+ },
+ {
+  "tvg_id": "32",
+  "tvg_name": "安徽卫视",
+  "tvg_logo": "anhui.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "安徽卫视"
+  ]
+ },
+ {
+  "tvg_id": "36",
+  "tvg_name": "辽宁卫视",
+  "tvg_logo": "liaoning.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "辽宁卫视"
+  ]
+ },
+ {
+  "tvg_id": "58",
+  "tvg_name": "云南卫视",
+  "tvg_logo": "yunnan.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "云南卫视"
+  ]
+ },
+ {
+  "tvg_id": "47",
+  "tvg_name": "河南卫视",
+  "tvg_logo": "henan.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "河南卫视"
+  ]
+ },
+ {
+  "tvg_id": "43",
+  "tvg_name": "广西卫视",
+  "tvg_logo": "guangxi.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "广西卫视"
+  ]
+ },
+ {
+  "tvg_id": "51",
+  "tvg_name": "吉林卫视",
+  "tvg_logo": "jilin.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "吉林卫视"
+  ]
+ },
+ {
+  "tvg_id": "55",
+  "tvg_name": "陕西卫视",
+  "tvg_logo": "shanxi.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "陕西卫视"
+  ]
+ },
+ {
+  "tvg_id": "54",
+  "tvg_name": "山西卫视",
+  "tvg_logo": "shanxi_.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "山西卫视"
+  ]
+ },
+ {
+  "tvg_id": "52",
+  "tvg_name": "内蒙古卫视",
+  "tvg_logo": "neimeng.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "内蒙古卫视"
+  ]
+ },
+ {
+  "tvg_id": "59",
+  "tvg_name": "青海卫视",
+  "tvg_logo": "qinghai.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "青海卫视"
+  ]
+ },
+ {
+  "tvg_id": "53",
+  "tvg_name": "宁夏卫视",
+  "tvg_logo": "ningxia.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "宁夏卫视"
+  ]
+ },
+ {
+  "tvg_id": "71",
+  "tvg_name": "西藏卫视",
+  "tvg_logo": "xizang.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "西藏卫视"
+  ]
+ },
+ {
+  "tvg_id": "57",
+  "tvg_name": "新疆卫视",
+  "tvg_logo": "xinjiang.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "新疆卫视"
+  ]
+ },
+ {
+  "tvg_id": "42",
+  "tvg_name": "甘肃卫视",
+  "tvg_logo": "gansu.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "甘肃卫视"
+  ]
+ },
+ {
+  "tvg_id": "37",
+  "tvg_name": "旅游卫视",
+  "tvg_logo": "lvyou.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "旅游卫视"
+  ]
+ },
+ {
+  "tvg_id": "67",
+  "tvg_name": "卡酷动画",
+  "tvg_logo": "kaku.png",
+  "group_title": "北京",
+  "channel_name": [
+   "卡酷动画"
+  ]
+ },
+ {
+  "tvg_id": "69",
+  "tvg_name": "金鹰卡通",
+  "tvg_logo": "jinyingkatong.png",
+  "group_title": "卫视",
+  "channel_name": [
+   "金鹰卡通"
+  ]
+ },
+ {
+  "tvg_id": "1046",
+  "tvg_name": "优漫卡通",
+  "tvg_logo": "youman.png",
+  "group_title": "地方",
+  "channel_name": [
+   "优漫卡通"
+  ]
+ },
+ {
+  "tvg_id": "62",
+  "tvg_name": "哈哈炫动",
+  "tvg_logo": "xuandong.png",
+  "group_title": "地方台",
+  "channel_name": [
+   "炫动卡通"
+  ]
+ },
+ {
+  "tvg_id": "1985",
+  "tvg_name": "第一财经",
+  "tvg_logo": "diyicaijing.png",
+  "group_title": "上海",
+  "channel_name": [
+   "第一财经"
+  ]
+ },
+ {
+  "tvg_id": "6010",
+  "tvg_name": "嘉佳卡通",
+  "tvg_logo": "jiajiakt.png",
+  "group_title": "地方",
+  "channel_name": [
+   "嘉佳卡通"
+  ]
+ },
+ {
+  "tvg_id": "85",
+  "tvg_name": "电竞天堂",
+  "tvg_logo": "dianjingtiantang.png",
+  "group_title": "地方",
+  "channel_name": [
+   "电竞天堂"
+  ]
+ }
+]
